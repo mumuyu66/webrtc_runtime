@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebRtcAudioTest.cpp"
+            timestampString = "528438095.81119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "WebRtcAecTest(char* speaker, char* mic, char* output)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebRtcAudioTest.cpp"
+            timestampString = "528438770.066973"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "WebRtcAecTest(char* speaker, char* mic, char* output)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WebRtcAecTest(char*, char*, char*)"
+                  moduleName = "webrtc-audio-processing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangzheng/Projects/webrtc_runtime/WebRtcAudioTest.cpp"
+                  timestampString = "528440314.223405"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WebRtcAecTest(char*, char*, char*)"
+                  moduleName = "libwebrtc.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangzheng/Projects/webrtc_runtime/WebRtcAudioTest.cpp"
+                  timestampString = "528440314.237788"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "webrtc/modules/audio_processing/aec/aec_core.cc"
+            timestampString = "528440311.232032"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1853"
+            endingLineNumber = "1853"
+            landmarkName = "WebRtcAec_ProcessFrames(AecCore* aec, const float* const* nearend, size_t num_bands, size_t num_samples, int knownDelay, float* const* out)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "webrtc::WebRtcAec_ProcessFrames(webrtc::AecCore*, float const* const*, unsigned long, unsigned long, int, float* const*)"
+                  moduleName = "libwebrtc.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangzheng/Projects/webrtc_runtime/webrtc/modules/audio_processing/aec/aec_core.cc"
+                  timestampString = "528440656.999052"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1853"
+                  endingLineNumber = "1853"
+                  offsetFromSymbolStart = "431">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "webrtc::WebRtcAec_ProcessFrames(webrtc::AecCore*, float const* const*, unsigned long, unsigned long, int, float* const*)"
+                  moduleName = "libwebrtc.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangzheng/Projects/webrtc_runtime/webrtc/modules/audio_processing/aec/aec_core.cc"
+                  timestampString = "528440657.001204"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1853"
+                  endingLineNumber = "1853"
+                  offsetFromSymbolStart = "467">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
