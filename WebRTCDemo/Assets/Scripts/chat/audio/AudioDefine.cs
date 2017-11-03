@@ -35,7 +35,7 @@ namespace Module.Audio
 		// mic delay time len 
 		public static float DELAY_TIME = 1f;
 
-		public static int DEBUG_NO = 4;
+		public static int DEBUG_NO = 3;
 
 		public static void ToFArray(float[] result,short[] sa)
 		{
