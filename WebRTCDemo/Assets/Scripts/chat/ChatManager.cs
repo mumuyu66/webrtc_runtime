@@ -21,7 +21,7 @@ namespace chat
 		public void  SendVoidMessage (byte[] data, int len){
 			float[] enbuff = AudioProcessing.DeFrames (data);
 			for(int i=0;i<enbuff.Length;i++){
-				enbuff [i] *= 3;
+				enbuff [i] *= 2;
 			}
 //			Array.Copy (enbuff,0,_buff,_index,enbuff.Length);
 //			_index += enbuff.Length;
