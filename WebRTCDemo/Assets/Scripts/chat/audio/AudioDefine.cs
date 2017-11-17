@@ -29,13 +29,15 @@ namespace Module.Audio
 		public static int NS_POLICY = 2;
 		// 回声消除模式 0, 1, 2, 3 (default), 4
 		public static int ECHO_MODE = 4;
+		// 静音检测模式 0(default), 1, 2, 3 ,4
+		public static int VAD_MODE = 4;
 
 		// mic buff time len 
 		public static int MIC_BUFF_LEN = 10;
 		// mic delay time len 
 		public static float DELAY_TIME = 1f;
 
-		public static int DEBUG_NO = 3;
+		public static int DEBUG_NO = 4;
 
 		public static void ToFArray(float[] result,short[] sa)
 		{

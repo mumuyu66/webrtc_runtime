@@ -14,7 +14,7 @@ namespace Module.Audio
 		#endif
 
 		[DllImport(WEBRTC_DLL,CallingConvention = CallingConvention.Cdecl)]
-		public static extern int WebRtcInit(int nsPolicy, int echoMode);
+		public static extern int WebRtcInit(int nsPolicy, int echoMode, int vadMode);
 
 		[DllImport(WEBRTC_DLL,CallingConvention = CallingConvention.Cdecl)]
 		public static extern int WebRtc_BufferFarend( short[] f_buf);

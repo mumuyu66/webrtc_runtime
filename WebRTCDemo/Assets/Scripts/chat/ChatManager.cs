@@ -23,15 +23,7 @@ namespace chat
 			for(int i=0;i<enbuff.Length;i++){
 				enbuff [i] *= 2;
 			}
-//			Array.Copy (enbuff,0,_buff,_index,enbuff.Length);
-//			_index += enbuff.Length;
-//			if (_index >= 80000) {
-//				_index = 0;
-//				_clip.SetData (_buff,0);
-//			}
-
 			_stream.Input (enbuff);
-//			_clip.SetData (enbuff,0);
 		}
 
 		public void SendFriendMessage (byte[] data, int len,int dataLen){

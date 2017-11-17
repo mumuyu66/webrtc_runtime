@@ -7,7 +7,7 @@ namespace chat
 	public class AudioStream
 	{
 		/// <summary>
-		/// Initializes a new instance of the <see cref="Core.Audio.AudioStream"/> class.
+		/// Initializes a new instance of the <see cref="chat.AudioStream"/> class.
 		/// </summary>
 		/// <param name="i_audioLength"> Audio Clip Length .</param>
 		/// <param name="i_audioFrequency"> Audio Clip Frequency.</param>
@@ -132,4 +132,3 @@ namespace chat
 		private int size;
 	}
 }
-

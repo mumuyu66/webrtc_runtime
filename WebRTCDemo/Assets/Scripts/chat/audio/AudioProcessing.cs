@@ -21,7 +21,7 @@ namespace Module.Audio
 			o_source160 = new float[AudioDefine.G_FRAME_SIZE];
 			g_source = new short[AudioDefine.G_FRAME_SIZE];
 			o_source = new short[AudioDefine.G_FRAME_SIZE];
-			AudioProcessingDll.WebRtcInit (AudioDefine.NS_POLICY,AudioDefine.ECHO_MODE);
+			AudioProcessingDll.WebRtcInit (AudioDefine.NS_POLICY,AudioDefine.ECHO_MODE,AudioDefine.VAD_MODE);
 
 			_isInit = true;
 		}
@@ -145,7 +145,6 @@ namespace Module.Audio
 
 			return o_source160;
 		}
-
 
 		public float[] Processing5(float[] audioSource,ref int vad){
 			if (!_isInit || i_data == null) {
