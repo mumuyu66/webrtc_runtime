@@ -122,7 +122,7 @@ namespace Module.Audio
 			int index = 0;
 
 			for (int i = 0; i < s960_listenerBuff.Length; i++) {
-				s960_listenerBuff [i] = (short)(f_listenerBuff [i] * AudioDefine.RESCALE_FACTOR);
+				s960_listenerBuff [i] = (short)(f_listenerBuff [i+64] * AudioDefine.RESCALE_FACTOR);
 			}
 
 			AudioProcessingDll.WebRtc_Resample48khzTo8khz (s960_listenerBuff,ref ptr);

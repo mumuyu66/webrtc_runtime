@@ -21,14 +21,14 @@ namespace Module.Audio
 
 		// msInSndCardBuf
 		#if UNITY_ANDROID
-		public static int MS_IN_SEND_CARDBUF = 90;
+		public static int MS_IN_SEND_CARDBUF = 95;
 		#else
-		public static int MS_IN_SEND_CARDBUF = 60;
+		public static int MS_IN_SEND_CARDBUF = 65;
 		#endif
 		//设置降噪的力度,0,1,2, 0最弱,2最强
 		public static int NS_POLICY = 2;
 		// 回声消除模式 0, 1, 2, 3 (default), 4
-		public static int ECHO_MODE = 3;
+		public static int ECHO_MODE = 4;
 
 		// mic buff time len 
 		public static int MIC_BUFF_LEN = 10;

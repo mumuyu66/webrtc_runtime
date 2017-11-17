@@ -20,6 +20,7 @@ public class Main : MonoBehaviour
 	private ChatManager _chatManager;
 	void Start (){
 		init ();
+		_delayText.text = AudioDefine.MS_IN_SEND_CARDBUF.ToString ();
 	}
 
 	private bool _init = false;
