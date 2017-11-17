@@ -24,7 +24,7 @@ webrtc_runtime
  -----------------------------------------------------------------------------------
  WebRTCDemo 运行时要注意的地方
  
- WebRTCDemo 中的AudioDefine.cs里有一系统的设置
+ WebRTCDemo 中的AudioDefine.cs里有一系列的设置
  
  其中 DEBUG_NO 默认为 3，这种模式下，只消除网络话音（不能消除背景音乐）
  
@@ -56,17 +56,16 @@ t_capture is the time the first sample of a frame is captured by the audio hardw
 ProcessStream().
  
  
-安卓下 MS_IN_SEND_CARDBUF = 90; 这个值在不同安卓机型上要自己微调
+安卓下 MS_IN_SEND_CARDBUF = 95; 这个值在不同安卓机型上要自己微调
 
-IOS下  MS_IN_SEND_CARDBUF = 60; 
+IOS下  MS_IN_SEND_CARDBUF = 65; 
  
  -------------------------------------------------------------------------------------
 
- 
- 
+ios10设备，没麦克风权限的解决方案
 
-ios10以上设备，没麦克风权限的解决方案
 1.在项目中找到info.plist
 文件，右键点击以 Source Code形式打开
+
 2.添加以下键值对
 Privacy - Microphone Usage Description 是否允许此App使用你的麦克风？
